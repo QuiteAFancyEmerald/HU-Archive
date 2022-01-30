@@ -4,11 +4,31 @@
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Space Company</title>
-	<link href="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/SpaceCompanyFavicon.png" rel="shortcut icon" type="image/x-icon" />
-	<link href="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/lib/bootstrap.min.css" rel="stylesheet" type="text/css" id="theme_css"/>
-	<link href="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/lib/pnotify.custom.min.css" rel="stylesheet" type="text/css">
+	<link href="SpaceCompanyFavicon.png" rel="shortcut icon" type="image/x-icon" />
+	<link href="lib/bootstrap.min.css" rel="stylesheet" type="text/css" id="theme_css"/>
+	<link href="lib/pnotify.custom.min.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-	<link href="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/style.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<script src='https://cdn1.kongregate.com/javascripts/kongregate_api.js'></script>
+	<!-- <script>
+		kongregateAPI.loadAPI(function(){
+			window.kongregate = kongregateAPI.getAPI();
+			console.log("KongregateAPI Loaded");
+			// You can now access the Kongregate API with: kongregate.services.getUsername(), etc
+			// Proceed with loading your game...
+		});
+
+	</script> -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75489477-2', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
 </head>
 <body style="height:100%">
 <div id="loadScreen" style="width:100%; height:100%; background-color: black">
@@ -25,7 +45,7 @@
 		Reticulating Splines...
 	</div>
 </div>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/data/splashTextData.js"></script>
+<script type="text/javascript" src="data/splashTextData.js"></script>
 <div id="game" class="container hidden" style="width:95%; margin: auto;">
 
 	<!--  Bar at top of screen -->
@@ -7134,59 +7154,59 @@
 </div>
 
 </body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/lib/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/lib/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/lib/lz-string.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/lib/handlebars.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/lib/pnotify.custom.min.js"></script>
+<script type="text/javascript" src="lib/jquery.min.js"></script>
+<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/lz-string.min.js"></script>
+<script type="text/javascript" src="lib/handlebars.min.js"></script>
+<script type="text/javascript" src="lib/pnotify.custom.min.js"></script>
 
 <!-- DEBUG -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/variable.js"></script>
+<script type="text/javascript" src="variable.js"></script>
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/game.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/utils.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/updates.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/achievements.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/data/achievementsData.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/constants.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/statistics.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/resource.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/data/resourceData.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/building.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/data/buildingData.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/tech.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/data/techData.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/data/interstellarData.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/data/starData.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/settings.js"></script>
+<script type="text/javascript" src="game.js"></script>
+<script type="text/javascript" src="utils.js"></script>
+<script type="text/javascript" src="updates.js"></script>
+<script type="text/javascript" src="achievements.js"></script>
+<script type="text/javascript" src="data/achievementsData.js"></script>
+<script type="text/javascript" src="constants.js"></script>
+<script type="text/javascript" src="statistics.js"></script>
+<script type="text/javascript" src="resource.js"></script>
+<script type="text/javascript" src="data/resourceData.js"></script>
+<script type="text/javascript" src="building.js"></script>
+<script type="text/javascript" src="data/buildingData.js"></script>
+<script type="text/javascript" src="tech.js"></script>
+<script type="text/javascript" src="data/techData.js"></script>
+<script type="text/javascript" src="data/interstellarData.js"></script>
+<script type="text/javascript" src="data/starData.js"></script>
+<script type="text/javascript" src="settings.js"></script>
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/interstellar.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/star.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/rocketParts.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/rocket.js"></script>
+<script type="text/javascript" src="interstellar.js"></script>
+<script type="text/javascript" src="star.js"></script>
+<script type="text/javascript" src="rocketParts.js"></script>
+<script type="text/javascript" src="rocket.js"></script>
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/stargaze.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/data/stargazeData.js"></script>
+<script type="text/javascript" src="stargaze.js"></script>
+<script type="text/javascript" src="data/stargazeData.js"></script>
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/ui/databoundElement.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/ui/gameTabUI.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/ui/resourceObserver.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/ui/interstellarUI.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/ui/achievementUI.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/ui/statisticUI.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/ui/stargazeUI.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/ui/resourceUI.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/ui/techUI.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/ui/legacyUI.js"></script>
+<script type="text/javascript" src="ui/databoundElement.js"></script>
+<script type="text/javascript" src="ui/gameTabUI.js"></script>
+<script type="text/javascript" src="ui/resourceObserver.js"></script>
+<script type="text/javascript" src="ui/interstellarUI.js"></script>
+<script type="text/javascript" src="ui/achievementUI.js"></script>
+<script type="text/javascript" src="ui/statisticUI.js"></script>
+<script type="text/javascript" src="ui/stargazeUI.js"></script>
+<script type="text/javascript" src="ui/resourceUI.js"></script>
+<script type="text/javascript" src="ui/techUI.js"></script>
+<script type="text/javascript" src="ui/legacyUI.js"></script>
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/core.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/notification.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/saving.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/resources.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/science.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/solarSystem.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/wonder.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BinBashBanana/gstore/html5games/spacecompany/solCenter.js"></script>
+<script type="text/javascript" src="core.js"></script>
+<script type="text/javascript" src="notification.js"></script>
+<script type="text/javascript" src="saving.js"></script>
+<script type="text/javascript" src="resources.js"></script>
+<script type="text/javascript" src="science.js"></script>
+<script type="text/javascript" src="solarSystem.js"></script>
+<script type="text/javascript" src="wonder.js"></script>
+<script type="text/javascript" src="solCenter.js"></script>
 
 <!-- RELEASE -->
 <!--<script type="text/javascript" src="SpaceCompany.min.js"></script>-->
